@@ -2,7 +2,12 @@
   <main id="app" class="bg-light" role="main">
     <MeucHeader />
     <MeucSection title="Logomarca">
-      Logo
+      <p class="description mx-auto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nam tincidunt ac felis nec malesuada.
+        Sed ex nibh, placerat non felis sed, suscipit venenatis augue.
+        Curabitur sit amet dui vehicula, feugiat lacus id, egestas purus.
+      </p>
     </MeucSection>
   </main>
 </template>
@@ -26,7 +31,6 @@ export default {
 
 #app {
   min-height: 100vh;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;

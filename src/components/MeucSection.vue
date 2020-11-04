@@ -1,6 +1,6 @@
 <template>
   <section class="section container" role="region">
-    <h3>{{ title }}</h3>
+    <h2 class="mb-4">{{ title }}</h2>
     <slot></slot>
   </section>
 </template>
@@ -17,7 +17,16 @@ export default {
 <style scoped lang="scss">
 @import '../assets/style/defaults.scss';
 
-h3 {
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
   color: $meuc-blue;
+}
+
+p.description {
+  max-width: 640px;
+  font-size: 1em;
+  color: $meuc-gray;
 }
 </style>
