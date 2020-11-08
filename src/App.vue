@@ -4,6 +4,7 @@
     <meuc-logomarca></meuc-logomarca>
     <meuc-fonte></meuc-fonte>
     <meuc-cores></meuc-cores>
+    <meuc-bottom></meuc-bottom>
   </main>
 </template>
 
@@ -13,6 +14,7 @@ import MeucHeader from './components/MeucHeader.vue'
 import MeucLogomarca from './components/MeucLogomarca.vue'
 import MeucFonte from './components/MeucFonte.vue'
 import MeucCores from './components/MeucCores.vue'
+import MeucBottom from './components/MeucBottom.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     MeucHeader,
     MeucLogomarca,
     MeucFonte,
-    MeucCores
+    MeucCores,
+    MeucBottom
   }
 }
 </script>
