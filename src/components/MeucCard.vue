@@ -2,7 +2,7 @@
   <div class="col-md-4">
     <div class="card mb-4">
       <div class="d-flex justify-content-center align-items-center p-3" :style="{ 'background-color': backgroundColor }">
-        <img :src="image" :alt="title">
+        <img :src="image" :alt="title" style="max-height: 120px;">
       </div>
       <div class="card-body">
         <div class="d-flex justify-content-between align-items-center">
