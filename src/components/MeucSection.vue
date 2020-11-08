@@ -1,5 +1,5 @@
 <template>
-  <section class="section container" role="region">
+  <section class="section container mt-5" role="region">
     <h2 class="mb-4">{{ title }}</h2>
     <slot></slot>
   </section>
