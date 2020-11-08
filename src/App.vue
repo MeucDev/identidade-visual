@@ -2,6 +2,7 @@
   <main id="app" class="bg-light" role="main">
     <meuc-header />
     <meuc-logomarca></meuc-logomarca>
+    <meuc-fonte></meuc-fonte>
   </main>
 </template>
 
@@ -9,12 +10,14 @@
 import 'bootstrap'
 import MeucHeader from './components/MeucHeader.vue'
 import MeucLogomarca from './components/MeucLogomarca.vue'
+import MeucFonte from './components/MeucFonte.vue'
 
 export default {
   name: 'App',
   components: {
     MeucHeader,
-    MeucLogomarca
+    MeucLogomarca,
+    MeucFonte
   }
 }
 </script>

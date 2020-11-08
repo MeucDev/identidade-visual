@@ -1,10 +1,13 @@
 <template>
-  <div class="col-md-4">
+  <div :class="[ 'col-md-' + width ]">
     <div class="card mb-4">
-      <div class="d-flex justify-content-center align-items-center p-3" :style="{ 'background-color': backgroundColor }">
+      <div v-if="hasImage" class="d-flex justify-content-center align-items-center p-3" :style="{ 'background-color': backgroundColor }">
         <img :src="image" :alt="title" style="max-height: 120px;">
       </div>
-      <div class="card-body">
+      <div v-if="hasShowcase">
+        <slot name="showcase"></slot>
+      </div>
+      <div v-if="hasTitle" class="card-body">
         <div class="d-flex justify-content-between align-items-center">
           <h5 class="card-title my-auto">{{ title }}</h5>
           <div v-if="downloadLinks" class="btn-group">
@@ -39,10 +42,25 @@ export default {
     downloadLinks: {
       type: Object
     }
+  },
+  computed: {
+    hasShowcase () {
+      return !!this.$slots.showcase || !!this.$scopedSlots.showcase
+    },
+    hasImage () {
+      return !!this.image
+    },
+    hasTitle () {
+      return !!this.title
+    }
   }
 }
 </script>
 
 <style scoped lang="scss">
 @import '../assets/style/defaults.scss';
+
+h5 {
+  color: $meuc-gray;
+}
 </style>
