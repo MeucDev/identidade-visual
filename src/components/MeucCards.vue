@@ -1,5 +1,5 @@
 <template>
-  <div class="cards">
+  <div class="cards align-items-stretch">
     <h3 class="my-3">{{ title }}</h3>
     <div class="row">
       <slot></slot>
