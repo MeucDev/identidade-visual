@@ -2,12 +2,18 @@
   <div id="logomarca">
     <meuc-section title="Logomarca">
       <p class="description mx-auto">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Nam tincidunt ac felis nec malesuada.
-      Sed ex nibh, placerat non felis sed, suscipit venenatis augue.
-      Curabitur sit amet dui vehicula, feugiat lacus id, egestas purus.
+        A logomarca se mostra como um dos itens centrais na identidade visual de uma instituição
+        e as orientações abaixo devem ser cuidadosamente seguidas.<br/><br/>
+        As opções existentes hoje de utilização incluem a versão em cores, em azul e em branco.
+        Caso precise de mais orientação em relação a utilização, veja os exemplos de utilização.
       </p>
       <meuc-cards title="Orientações">
+        <meuc-guideline title="Não esticar"
+            description="Muito cuidado ao redimensionar. A proporção de altura e largura da logo deve ser sempre mantida."
+            image="./guidelines/logo-esticar.svg" />
+        <meuc-guideline title="Não alterar as cores"
+            description="As cores seguem o guia e devem ser mantidas. Para obter diferentes cores, veja as opções de logo e utilize fundos diferenciados."
+            image="./guidelines/logo-cores.svg" />
       </meuc-cards>
       <meuc-cards title="Download">
         <meuc-card title="Horizontal - Cor"
@@ -76,6 +82,7 @@
 import MeucSection from './MeucSection.vue'
 import MeucCards from './MeucCards.vue'
 import MeucCard from './MeucCard.vue'
+import MeucGuideline from './MeucGuideline.vue'
 
 export default {
   name: 'MeucLogomarca',
@@ -87,7 +94,8 @@ export default {
   components: {
     MeucSection,
     MeucCards,
-    MeucCard
+    MeucCard,
+    MeucGuideline
   }
 }
 </script>
