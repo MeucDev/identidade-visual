@@ -11,9 +11,18 @@
         <meuc-guideline title="Não esticar"
             description="Muito cuidado ao redimensionar. A proporção de altura e largura da logo deve ser sempre mantida."
             image="./guidelines/logo-esticar.svg" />
+        <meuc-guideline title="Não alterar proporções"
+            description="A proporção entre os elementos da logomarca não deve ser modificada."
+            image="./guidelines/logo-proporcao.svg" />
         <meuc-guideline title="Não alterar as cores"
             description="As cores seguem o guia e devem ser mantidas. Para obter diferentes cores, veja as opções de logo e utilize fundos diferenciados."
             image="./guidelines/logo-cores.svg" />
+        <meuc-guideline title="Não adicionar elementos"
+            description="Qualquer item adicionado a logo descaracteriza sua representação original. Não adicione qualquer ícone, imagem ou decoração festiva à logo."
+            image="./guidelines/logo-elementos.svg" />
+        <meuc-guideline title="Não alterar a fonte"
+            description="A fonte utilizada na logo é a mesma indicada neste manual. Mantenha sempre a original."
+            image="./guidelines/logo-fonte.svg" />
       </meuc-cards>
       <meuc-cards title="Download">
         <meuc-card title="Horizontal - Cor"
