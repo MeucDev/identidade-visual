@@ -23,6 +23,17 @@
         <meuc-guideline title="Não alterar a fonte"
             description="A fonte utilizada na logo é a mesma indicada neste manual. Mantenha sempre a original."
             image="./guidelines/logo-fonte.svg" />
+        <meuc-guideline title="Não aplicar sobre fundo colorido"
+            description="O principal problema de uma aplicação dessa forma é a falta de contraste. Veja os itens seguintes para formas de solucionar esse problema."
+            image="./guidelines/logo-contraste.png" />
+        <meuc-guideline title="Fundo colorido - Utilize uma caixa"
+            description="Uma forma de aplicar a logo sobre fundo colorido é utiizando uma caixa (ou faixa) branca. Isso garante contraste e legibilidade da logo."
+            image="./guidelines/logo-contraste-caixa.png"
+            type="success" />
+        <meuc-guideline title="Fundo colorido - Utilize versão branca"
+            description="Outra forma de aplicar a logo sobre fundo colorido é utiizando uma versão mais adequada da logo - como a versão branca."
+            image="./guidelines/logo-contraste-branco.png"
+            type="success" />
       </meuc-cards>
       <meuc-cards title="Download">
         <meuc-card title="Horizontal - Cor"

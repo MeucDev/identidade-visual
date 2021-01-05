@@ -87,6 +87,10 @@ export default {
 
     &.success {
       background-color: $bootstrap-success;
+
+      .icon-image {
+        background: url('../assets/images/success.svg');
+      }
     }
   }
 
