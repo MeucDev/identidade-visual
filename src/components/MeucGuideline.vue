@@ -85,6 +85,14 @@ export default {
       }
     }
 
+    &.warning {
+      background-color: $bootstrap-warning;
+
+      .icon-image {
+        background: url('../assets/images/warning.svg');
+      }
+    }
+
     &.success {
       background-color: $bootstrap-success;
 
