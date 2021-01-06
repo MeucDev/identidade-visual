@@ -2,9 +2,19 @@
   <div id="cores">
     <meuc-section title="Cores">
       <p class="description mx-auto">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        O uso correto das cores é essencial em qualquer material. Guie-se pelas cores principais listadas abaixo e lembre-se sempre de garantir contraste entre o conteúdo e o fundo.
       </p>
       <meuc-cards title="Orientações">
+        <meuc-guideline title="Garanta legibilidade"
+            description="A falta de contraste entre conteúdo e fundo podem gerar dificuldade de leitura ou identificação de uma imagem."
+            image="./guidelines/cores-contraste.svg" />
+        <meuc-guideline title="Escolha de cores"
+            description="Mesmo utilizando cores distoantes, evite cores com uma saturação e luminosidade similar. Alguns tipos de daltonismo tem dificuldade em enxergar alguns conjuntos de cores."
+            image="./guidelines/cores-daltonismo.svg" />
+        <meuc-guideline title="Preto e Branco são sempre uma boa escolha"
+            description="Quando utilizar um fundo colorido, utilizar branco ou preto (dependendo da luminosidade) para o conteúdo e texto é sempre uma boa escolha - lembre-se apenas de garantir contraste."
+            image="./guidelines/cores-contraste-branco.svg"
+            type="success" />
       </meuc-cards>
       <meuc-cards title="Galeria">
         <meuc-card width="3">
@@ -60,8 +70,6 @@
           </template>
         </meuc-card>
       </meuc-cards>
-      <meuc-cards title="Análogas e Complementares">
-      </meuc-cards>
     </meuc-section>
   </div>
 </template>
@@ -70,13 +78,15 @@
 import MeucSection from './MeucSection.vue'
 import MeucCards from './MeucCards.vue'
 import MeucCard from './MeucCard.vue'
+import MeucGuideline from './MeucGuideline.vue'
 
 export default {
   name: 'MeucCores',
   components: {
     MeucSection,
     MeucCards,
-    MeucCard
+    MeucCard,
+    MeucGuideline
   }
 }
 </script>
