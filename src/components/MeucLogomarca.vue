@@ -95,6 +95,63 @@
             }" />
       </meuc-cards>
     </meuc-section>
+    <meuc-section title="Aplicação com nome da cidade">
+      <p class="description mx-auto">
+        Para utilização com o nome da cidade, utilize uma das aplicações listadas abaixo.
+        Dessa forma garantimos também a padronização da utilização com o nome nos diversos distritos da MEUC.
+      </p>
+      <meuc-cards title="Orientações">
+        <meuc-guideline title="Alterar alinhamento"
+            description="Mantenha sempre o alinhamento dos elementos a esquerda."
+            image="./guidelines/logo-cidade-alinhamento.svg" />
+        <meuc-guideline title="Alterar fonte"
+            description="Conforme o manual, a fonte utilizada deve ser a Open Sans. Para aplicação do nome da cidade, utilize a variação em negrito (700)."
+            image="./guidelines/logo-cidade-fonte.svg" />
+        <meuc-guideline title="Alterar elementos"
+            description="Mantenha os elementos propostos pelos itens padrão. Adicionar outros elementos fere a padronização proposta."
+            image="./guidelines/logo-cidade-elementos.svg" />
+      </meuc-cards>
+      <meuc-cards title="Download">
+        <meuc-card title="Horizontal - Cor"
+            image="./download/logo-meuc-cidade-cor.svg"
+            :download-links="{
+            'PDF': './download/logo-meuc-cidade-cor.pdf',
+            'SVG': './download/logo-meuc-cidade-cor.svg'
+            }" />
+        <meuc-card title="Horizontal - Branco"
+            image="./download/logo-meuc-cidade-branco.svg"
+            :backgroundColor="meucBlue"
+            :download-links="{
+            'PDF': './download/logo-meuc-cidade-branco.pdf',
+            'SVG': './download/logo-meuc-cidade-branco.svg'
+            }" />
+        <meuc-card title="Horizontal - Azul"
+            image="./download/logo-meuc-cidade-azul.svg"
+            :download-links="{
+            'PDF': './download/logo-meuc-cidade-azul.pdf',
+            'SVG': './download/logo-meuc-cidade-azul.svg'
+            }" />
+        <meuc-card title="Vertical - Cor"
+            image="./download/logo-meuc-cidade-vertical-cor.svg"
+            :download-links="{
+            'PDF': './download/logo-meuc-cidade-vertical-cor.pdf',
+            'SVG': './download/logo-meuc-cidade-vertical-cor.svg'
+            }" />
+        <meuc-card title="Vertical - Branco"
+            image="./download/logo-meuc-cidade-vertical-branco.svg"
+            :backgroundColor="meucBlue"
+            :download-links="{
+            'PDF': './download/logo-meuc-cidade-vertical-branco.pdf',
+            'SVG': './download/logo-meuc-cidade-vertical-branco.svg'
+            }" />
+        <meuc-card title="Vertical - Azul"
+            image="./download/logo-meuc-cidade-vertical-azul.svg"
+            :download-links="{
+            'PDF': './download/logo-meuc-cidade-vertical-azul.pdf',
+            'SVG': './download/logo-meuc-cidade-vertical-azul.svg'
+            }" />
+      </meuc-cards>
+    </meuc-section>
   </div>
 </template>
 
