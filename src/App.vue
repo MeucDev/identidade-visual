@@ -1,9 +1,17 @@
 <template>
   <main id="app" class="bg-light" role="main">
     <meuc-header />
-    <meuc-logomarca></meuc-logomarca>
-    <meuc-fonte></meuc-fonte>
-    <meuc-cores></meuc-cores>
+    <div class="accordion accordion-flush mt-5 mb-auto" id="accordion">
+      <accordion-item title="Logomarca" parent="accordion">
+        <meuc-logomarca></meuc-logomarca>
+      </accordion-item>
+      <accordion-item title="Fonte" parent="accordion">
+        <meuc-fonte></meuc-fonte>
+      </accordion-item>
+      <accordion-item title="Cores" parent="accordion">
+        <meuc-cores></meuc-cores>
+      </accordion-item>
+    </div>
     <meuc-bottom></meuc-bottom>
   </main>
 </template>
@@ -15,6 +23,7 @@ import MeucLogomarca from './components/MeucLogomarca.vue'
 import MeucFonte from './components/MeucFonte.vue'
 import MeucCores from './components/MeucCores.vue'
 import MeucBottom from './components/MeucBottom.vue'
+import AccordionItem from './components/AccordionItem.vue'
 
 export default {
   name: 'App',
@@ -23,7 +32,8 @@ export default {
     MeucLogomarca,
     MeucFonte,
     MeucCores,
-    MeucBottom
+    MeucBottom,
+    AccordionItem
   }
 }
 </script>
@@ -32,6 +42,9 @@ export default {
 @import 'bootstrap';
 
 #app {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

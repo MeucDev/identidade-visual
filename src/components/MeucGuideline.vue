@@ -1,5 +1,5 @@
 <template>
-  <div :class="[ 'col-md-' + width, 'mb-4' ]">
+  <div :class="[ 'col-lg-' + width, 'col-md-12', 'mb-4' ]">
     <div class="card flex-row">
       <div :class="[ 'icon', type ]"><div class="icon-image"></div></div>
       <div v-if="hasImage" class="image d-flex justify-content-center align-items-center p-3" :style="{ 'background-color': backgroundColor }">

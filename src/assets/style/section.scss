@@ -1,0 +1,14 @@
+@import 'defaults.scss';
+
+h3 {
+  font-size: 1.6em;
+  font-weight: 600;
+  text-align: center;
+  color: $meuc-blue;
+}
+
+p.description {
+  max-width: 640px;
+  font-size: 1em;
+  color: $meuc-gray;
+}
