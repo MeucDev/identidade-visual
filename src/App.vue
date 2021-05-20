@@ -8,6 +8,9 @@
       <accordion-item title="Redes Sociais" parent="accordion">
         <meuc-redes-sociais></meuc-redes-sociais>
       </accordion-item>
+      <accordion-item title="Slides" parent="accordion">
+        <meuc-slides></meuc-slides>
+      </accordion-item>
       <accordion-item title="Transmissão" parent="accordion">
         <meuc-transmissao></meuc-transmissao>
       </accordion-item>
@@ -27,6 +30,7 @@ import 'bootstrap'
 import MeucHeader from './components/MeucHeader.vue'
 import MeucLogomarca from './components/MeucLogomarca.vue'
 import MeucRedesSociais from './components/MeucRedesSociais.vue'
+import MeucSlides from './components/MeucSlides.vue'
 import MeucTransmissao from './components/MeucTransmissao.vue'
 import MeucFonte from './components/MeucFonte.vue'
 import MeucCores from './components/MeucCores.vue'
@@ -39,6 +43,7 @@ export default {
     MeucHeader,
     MeucLogomarca,
     MeucRedesSociais,
+    MeucSlides,
     MeucTransmissao,
     MeucFonte,
     MeucCores,
