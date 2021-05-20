@@ -1,27 +1,28 @@
 <template>
   <div class="accordion-item" id="redes-sociais">
     <p class="description mx-auto">
-      REVISAR TEXTO<br/>
-      As redes sociais são onde a marca fica mais impressa e comumente vista por pessoas de fora da comunidade.<br/>
-      Faz parte da identidade e da imagem.<br/>
-      Importância do alinhamento da marca e redes sociais.<br/>
-      REVISAR TEXTO
+      As redes sociais são o principal ponto de engajamento com as pessoas fora das programações.
+      Tanto pessoas participantes da comunidade como pessoas novas são alcançadas, por isso é importante
+      passar uma boa imagem da comunidade com um material que represente bem a identidade da nossa igreja.
     </p>
     <meuc-cards title="Orientações">
-      <meuc-guideline title="Garanta legibilidade"
-          description="A falta de contraste entre conteúdo e fundo podem gerar dificuldade de leitura ou identificação de uma imagem."
+      <meuc-guideline title="Mantenha uma identidade"
+          description="Certifique-se que os diversos elementos da sua rede social - como foto de perfil, capa e posts - tenham elementos em comum - como fonte, cores e até imagens."
+          image="./guidelines/cores-contraste.svg"
+          type="success" />
+      <meuc-guideline title="Evite excesso de informação"
+          description="Na arte, foque no que é mais importante - os demais detalhes podem estar presentes na descrição do post. Exemplo: No caso de um evento - Título, Data / Hora e Local são suficientes."
           image="./guidelines/cores-contraste.svg" />
     </meuc-cards>
     <p class="description mx-auto">
-      REVISAR TEXTO<br/>
-      As imagens abaixo são uma sugestão e tem a proporção adequada garantindo em todos os dispositivos.<br/>
-      REVISAR TEXTO
+      Abaixo existem algumas sugestões de materiais para as redes sociais preparados com todos os cuidados necessários.<br/>
+      Você pode optar por algo diferente, mas certifique-se de que o formato e arte que você fez esteja coerente com as orientações
+      desse manual e seja compatível com os possíveis formatos para diferentes dispositivos.
     </p>
     <meuc-cards title="Facebook">
       <meuc-card title="Imagem de Capa"
           image="./download/capa-facebook-meuc.jpg"
           :download-links="{
-          'PDF': './download/capa-youtube-meuc.pdf',
           'JPG': './download/capa-facebook-meuc.jpg'
           }" />
     </meuc-cards>
@@ -29,7 +30,6 @@
       <meuc-card title="Imagem de Capa"
           image="./download/capa-youtube-meuc.jpg"
           :download-links="{
-          'PDF': './download/capa-youtube-meuc.pdf',
           'JPG': './download/capa-youtube-meuc.jpg'
           }" />
     </meuc-cards>
