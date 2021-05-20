@@ -5,6 +5,9 @@
       <accordion-item title="Logomarca" parent="accordion">
         <meuc-logomarca></meuc-logomarca>
       </accordion-item>
+      <accordion-item title="Redes Sociais" parent="accordion">
+        <meuc-redes-sociais></meuc-redes-sociais>
+      </accordion-item>
       <accordion-item title="Fonte" parent="accordion">
         <meuc-fonte></meuc-fonte>
       </accordion-item>
