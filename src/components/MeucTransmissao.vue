@@ -1,9 +1,10 @@
 <template>
   <div class="accordion-item" id="transmissao">
     <p class="description mx-auto">
-      As redes sociais são o principal ponto de engajamento com as pessoas fora das programações.
-      Tanto pessoas participantes da comunidade como pessoas novas são alcançadas, por isso é importante
-      passar uma boa imagem da comunidade com um material que represente bem a identidade da nossa igreja.
+      A transmissão de conteúdo abrange diversos itens - de logo, áudio, slides até qualidade da imagem.<br/>
+      O foco desse manual é direcionar para que alguns conceitos principais da identidade sejam mantidos independente
+      do conteúdo apresentado ou equipamento utilizado.<br/>
+      Veja abaixo algumas orientações e sugestões de material para serem utilizados.
     </p>
     <meuc-cards title="Orientações">
       <meuc-guideline title="Não utilize material sem autorização"

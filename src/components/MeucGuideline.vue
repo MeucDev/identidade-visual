@@ -117,4 +117,14 @@ export default {
     color: $meuc-gray;
   }
 }
+
+@media (max-width:576px) {
+  .card {
+    flex-direction: column !important;
+
+    .image {
+      padding-bottom: 0 !important;
+    }
+  }
+}
 </style>

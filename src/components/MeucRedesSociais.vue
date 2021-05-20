@@ -21,16 +21,16 @@
     </p>
     <meuc-cards title="Facebook">
       <meuc-card title="Imagem de Capa"
-          image="./download/capa-facebook-meuc.jpg"
+          image="./download/facebook-capa-mar.jpg"
           :download-links="{
-          'JPG': './download/capa-facebook-meuc.jpg'
+          'JPG': './download/facebook-capa-mar.jpg'
           }" />
     </meuc-cards>
     <meuc-cards title="YouTube">
       <meuc-card title="Imagem de Capa"
-          image="./download/capa-youtube-meuc.jpg"
+          image="./download/youtube-capa-mar.jpg"
           :download-links="{
-          'JPG': './download/capa-youtube-meuc.jpg'
+          'JPG': './download/youtube-capa-mar.jpg'
           }" />
     </meuc-cards>
   </div>

@@ -7,7 +7,7 @@
         <h3 class="mb-0">Missão Evangélica União Cristã</h3>
       </div>
     </section>
-    <p class="intro">
+    <p class="intro px-3">
       Este manual tem como objetivo estabelecer parâmetros para a correta utilização da marca Missão Evangélica União Cristã.
       O cuidado na aplicação de cada um de seus elementos gráficos é fundamental para conferir unidade à comunicação.<br/><br/>
       O uso da marca deverá respeitar os parâmetros apresentados e qualquer nova situação que não esteja prevista entre as relacionadas,
