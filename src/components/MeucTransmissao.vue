@@ -8,11 +8,11 @@
     </p>
     <meuc-cards title="Orientações">
       <meuc-guideline title="Não utilize material sem autorização"
-          description="Direitos Autorais precisam ser respeitados. Busque materiais que sejam de uso gratuito ou ."
-          image="./guidelines/cores-contraste.svg" />
+          description="Direitos Autorais precisam ser respeitados. Busque imagens, vídeos e áudio que sejam de uso gratuito ou que você tenha permissões."
+          image="./guidelines/transmissao-direitos.svg" />
       <meuc-guideline title="Identifique-se"
           description="É importante que as pessoas reconheçam facilmente a origem da transmissão. Recomendamos utilizar a logo no canto superior direito (veja download abaixo)."
-          image="./guidelines/cores-contraste.svg"
+          image="./guidelines/transmissao-identificacao.svg"
           type="success" />
     </meuc-cards>
     <meuc-cards title="Logomarca - Marca d'água">
@@ -38,7 +38,7 @@
           '1 min': './download/video-transmissao-bem-vindo-relogio-1-min.mp4'
           }" />
       <meuc-card title="Oceano"
-          image="./download/video-transmissao-bem-vindo-oceano.png"
+          image="./download/video-transmissao-bem-vindo-oceano.jpg"
           :download-links="{
           'Loop': './download/video-transmissao-bem-vindo-oceano-loop.mp4',
           '1 min': './download/video-transmissao-bem-vindo-oceano-1-min.mp4'

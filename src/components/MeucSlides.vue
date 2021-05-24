@@ -1,15 +1,24 @@
 <template>
   <div class="accordion-item" id="slides">
     <p class="description mx-auto">
-      Slides
+      As apresentações de slides são utilizadas frequentemente na comunidade para cumprir diversos propósitos: Louvor, avisos, palestra... E este é mais um ponto onde podemos garantir a identidade da marca.<br/>
+      Abaixo você encontra alguns materiais voltados para diferentes momentos do culto.
     </p>
     <meuc-cards title="Orientações">
-      <meuc-guideline title="Não utilize material sem autorização"
-          description="Direitos Autorais precisam ser respeitados. Busque materiais que sejam de uso gratuito ou ."
-          image="./guidelines/cores-contraste.svg" />
-      <meuc-guideline title="Identifique-se"
-          description="É importante que as pessoas reconheçam facilmente a origem da transmissão. Recomendamos utilizar a logo no canto superior direito (veja download abaixo)."
-          image="./guidelines/cores-contraste.svg"
+      <meuc-guideline title="Não alterar a fonte"
+          description="Utilize sempre as fontes sugeridas para garantir a padronização."
+          image="./guidelines/slides-alterar-fonte.svg" />
+      <meuc-guideline title="Evite alterar a disposição dos elementos"
+          description="Os arquivos foram preparados com Layouts que atendem a maioria dos formatos. Busque usar sempre os Layouts sugeridos."
+          image="./guidelines/slides-alterar-disposicao.svg"
+          type="warning" />
+      <meuc-guideline title="Para projetores, use fundo preto"
+          description="O fundo preto evita que a caixa limite do projetor fique aparente e garante contraste com a letra branca (mesmo em projetores mais antigos)."
+          image="./guidelines/slides-fundo-preto.svg"
+          type="success" />
+      <meuc-guideline title="Para transmissões, use legendas"
+          description="As letras no formato de legenda garantem que você possa exibir toda a imagem com mínima intrusão."
+          image="./guidelines/slides-legendas.svg"
           type="success" />
     </meuc-cards>
     <meuc-cards title="Louvor">
@@ -19,7 +28,7 @@
           'PPTX': './download/slides-louvor-fundo-preto-16x9.pptx',
           'POTX': './download/slides-louvor-fundo-preto-16x9.potx'
           }" />
-      <meuc-card title="Fundo verde (para legenda)"
+      <meuc-card title="Fundo verde (para legendas)"
           image="./download/slides-louvor-fundo-verde-16x9.jpg"
           :download-links="{
           'PPTX': './download/slides-louvor-fundo-verde-16x9.pptx',

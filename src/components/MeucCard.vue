@@ -1,8 +1,8 @@
 <template>
-  <div :class="[ 'col-md-' + width, 'mb-4' ]">
+  <div :class="[ 'col', 'col-md-' + width, 'mb-4' ]">
     <div class="card">
       <div v-if="hasImage" class="image d-flex justify-content-center align-items-center p-3" :style="{ 'background-color': backgroundColor }">
-        <img :src="image" :alt="title" style="max-height: 120px;">
+        <img :src="image" :alt="title">
       </div>
       <div v-if="hasShowcase">
         <slot name="showcase"></slot>
@@ -60,6 +60,11 @@ export default {
 
 .card {
   height: 100%;
+
+  .image img {
+    max-height: 120px;
+    max-width: 100%;
+  }
 
   h5 {
     color: $meuc-gray;
