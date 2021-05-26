@@ -29,6 +29,7 @@
           'Com Sombra': './download/transmissao-logo-com-sombra.png',
           'Sem Sombra': './download/transmissao-logo-sem-sombra.png'
           }" />
+      <p class="col-12">Proporções sugeridas - Margem: distância de 3% da altura do vídeo em ambas dimensões | Logo: altura da logo igual a 17% da altura do vídeo</p>
     </meuc-cards>
     <meuc-cards title="Antes de começar">
       <meuc-card title="Relógio"

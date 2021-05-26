@@ -27,4 +27,12 @@ h3 {
   text-align: center;
   color: $meuc-gray;
 }
+
+p {
+  margin-top: -1em;
+  font-size: 0.8em;
+  color: $meuc-gray;
+  opacity: 0.8;
+  text-align: center;
+}
 </style>
