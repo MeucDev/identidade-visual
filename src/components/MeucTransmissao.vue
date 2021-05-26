@@ -12,7 +12,7 @@
           image="./guidelines/transmissao-direitos.svg" />
       <meuc-guideline title="Identifique-se"
           description="É importante que as pessoas reconheçam facilmente a origem da transmissão. Recomendamos utilizar a logo no canto superior direito (veja download abaixo)."
-          image="./guidelines/transmissao-identificacao.svg"
+          image="./guidelines/transmissao-identificacao.jpg"
           type="success" />
     </meuc-cards>
     <meuc-cards title="Logomarca - Marca d'água">
@@ -35,13 +35,17 @@
           image="./download/video-transmissao-bem-vindo-relogio.jpg"
           :download-links="{
           'Loop': './download/video-transmissao-bem-vindo-relogio-loop.mp4',
-          '1 min': './download/video-transmissao-bem-vindo-relogio-1-min.mp4'
+          '1 min': './download/video-transmissao-bem-vindo-relogio-1-min.mp4',
+          '3 min': './download/video-transmissao-bem-vindo-relogio-3-min.mp4',
+          '5 min': './download/video-transmissao-bem-vindo-relogio-5-min.mp4'
           }" />
       <meuc-card title="Oceano"
           image="./download/video-transmissao-bem-vindo-oceano.jpg"
           :download-links="{
           'Loop': './download/video-transmissao-bem-vindo-oceano-loop.mp4',
-          '1 min': './download/video-transmissao-bem-vindo-oceano-1-min.mp4'
+          '1 min': './download/video-transmissao-bem-vindo-oceano-1-min.mp4',
+          '3 min': './download/video-transmissao-bem-vindo-oceano-3-min.mp4',
+          '5 min': './download/video-transmissao-bem-vindo-oceano-5-min.mp4'
           }" />
     </meuc-cards>
   </div>

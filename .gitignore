@@ -25,3 +25,6 @@ pnpm-debug.log*
 # Design files
 *.ai
 *.afdesing
+
+# Video files
+*.mp4

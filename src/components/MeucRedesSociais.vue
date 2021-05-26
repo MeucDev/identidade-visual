@@ -8,11 +8,11 @@
     <meuc-cards title="Orientações">
       <meuc-guideline title="Mantenha uma identidade"
           description="Certifique-se que os diversos elementos da sua rede social - como foto de perfil, capa e posts - tenham elementos em comum - como fonte, cores e até imagens."
-          image="./guidelines/cores-contraste.svg"
+          image="./guidelines/redes-sociais-identidade.svg"
           type="success" />
       <meuc-guideline title="Evite excesso de informação"
           description="Na arte, foque no que é mais importante - os demais detalhes podem estar presentes na descrição do post. Exemplo: No caso de um evento - Título, Data / Hora e Local são suficientes."
-          image="./guidelines/cores-contraste.svg" />
+          image="./guidelines/redes-sociais-excesso.svg" />
     </meuc-cards>
     <p class="description mx-auto">
       Abaixo existem algumas sugestões de materiais para as redes sociais preparados com todos os cuidados necessários.<br/>

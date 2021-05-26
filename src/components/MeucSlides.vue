@@ -7,18 +7,18 @@
     <meuc-cards title="Orientações">
       <meuc-guideline title="Não alterar a fonte"
           description="Utilize sempre as fontes sugeridas para garantir a padronização."
-          image="./guidelines/slides-alterar-fonte.svg" />
+          image="./guidelines/slides-alterar-fonte.jpg" />
       <meuc-guideline title="Evite alterar a disposição dos elementos"
           description="Os arquivos foram preparados com Layouts que atendem a maioria dos formatos. Busque usar sempre os Layouts sugeridos."
-          image="./guidelines/slides-alterar-disposicao.svg"
+          image="./guidelines/slides-alterar-disposicao.jpg"
           type="warning" />
       <meuc-guideline title="Para projetores, use fundo preto"
           description="O fundo preto evita que a caixa limite do projetor fique aparente e garante contraste com a letra branca (mesmo em projetores mais antigos)."
-          image="./guidelines/slides-fundo-preto.svg"
+          image="./guidelines/slides-fundo-preto.jpg"
           type="success" />
       <meuc-guideline title="Para transmissões, use legendas"
           description="As letras no formato de legenda garantem que você possa exibir toda a imagem com mínima intrusão."
-          image="./guidelines/slides-legendas.svg"
+          image="./guidelines/slides-legendas.jpg"
           type="success" />
     </meuc-cards>
     <meuc-cards title="Louvor">
