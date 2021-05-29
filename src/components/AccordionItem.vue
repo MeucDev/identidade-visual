@@ -24,7 +24,8 @@ export default {
   },
   computed: {
     tag () {
-      return this.title.toLowerCase().replace(' ', '-')
+      const normalized = this.title.normalize('NFD').replaceAll(/[\u0300-\u036f]/g, '')
+      return normalized.toLowerCase().replaceAll(' ', '-')
     }
   }
 }

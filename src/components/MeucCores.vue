@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion-item" id="cores">
+  <div id="cores">
     <p class="description mx-auto">
       O uso correto das cores é essencial em qualquer material. Guie-se pelas cores principais listadas abaixo e lembre-se sempre de garantir contraste entre o conteúdo e o fundo.
     </p>

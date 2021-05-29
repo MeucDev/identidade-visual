@@ -14,6 +14,9 @@
       <accordion-item title="Transmissão" parent="accordion">
         <meuc-transmissao></meuc-transmissao>
       </accordion-item>
+      <accordion-item title="Material e Conteúdo" parent="accordion">
+        <meuc-material></meuc-material>
+      </accordion-item>
       <accordion-item title="Fonte" parent="accordion">
         <meuc-fonte></meuc-fonte>
       </accordion-item>
@@ -32,6 +35,7 @@ import MeucLogomarca from './components/MeucLogomarca.vue'
 import MeucRedesSociais from './components/MeucRedesSociais.vue'
 import MeucSlides from './components/MeucSlides.vue'
 import MeucTransmissao from './components/MeucTransmissao.vue'
+import MeucMaterial from './components/MeucMaterial.vue'
 import MeucFonte from './components/MeucFonte.vue'
 import MeucCores from './components/MeucCores.vue'
 import MeucBottom from './components/MeucBottom.vue'
@@ -45,6 +49,7 @@ export default {
     MeucRedesSociais,
     MeucSlides,
     MeucTransmissao,
+    MeucMaterial,
     MeucFonte,
     MeucCores,
     MeucBottom,

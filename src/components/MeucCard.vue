@@ -8,7 +8,10 @@
         <slot name="showcase"></slot>
       </div>
       <div v-if="hasTitle" class="card-body d-flex justify-content-between align-items-center">
-        <h5 class="card-title my-auto">{{ title }}</h5>
+        <div class="card-title my-auto">
+          <h5>{{ title }}</h5>
+          <span v-if="hasSubtitle">{{ subtitle }}</span>
+        </div>
         <div v-if="downloadLinks" class="btn-group">
           <a v-for="(link, key) in downloadLinks" :key="key" :href="link" target="_blank" class="btn btn-sm btn-outline-secondary">{{ key }}</a>
         </div>
@@ -22,16 +25,17 @@ export default {
   name: 'MeucCard',
   props: {
     title: {
-      type: String,
-      required: true
+      type: String
+    },
+    subtitle: {
+      type: String
     },
     width: {
       type: Number,
       default: 4
     },
     image: {
-      type: String,
-      required: true
+      type: String
     },
     backgroundColor: {
       type: String,
@@ -50,6 +54,9 @@ export default {
     },
     hasTitle () {
       return !!this.title
+    },
+    hasSubtitle () {
+      return !!this.subtitle
     }
   }
 }
@@ -66,8 +73,15 @@ export default {
     max-width: 100%;
   }
 
-  h5 {
+  .card-title {
     color: $meuc-gray;
+
+    span {
+      display: block;
+      margin-top: -5px;
+      font-size: 0.85em;
+      opacity: 0.75;
+    }
   }
 }
 </style>

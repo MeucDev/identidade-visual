@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion-item" id="transmissao">
+  <div id="transmissao">
     <p class="description mx-auto">
       A transmissão de conteúdo abrange diversos itens - de logo, áudio, slides até qualidade da imagem.<br/>
       O foco desse manual é direcionar para que alguns conceitos principais da identidade sejam mantidos independente
@@ -7,9 +7,6 @@
       Veja abaixo algumas orientações e sugestões de material para serem utilizados.
     </p>
     <meuc-cards title="Orientações">
-      <meuc-guideline title="Não utilize material sem autorização"
-          description="Direitos Autorais precisam ser respeitados. Busque imagens, vídeos e áudio que sejam de uso gratuito ou que você tenha permissões."
-          image="./guidelines/transmissao-direitos.svg" />
       <meuc-guideline title="Identifique-se"
           description="É importante que as pessoas reconheçam facilmente a origem da transmissão. Recomendamos utilizar a logo no canto superior direito (veja download abaixo)."
           image="./guidelines/transmissao-identificacao.jpg"

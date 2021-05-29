@@ -1,5 +1,5 @@
 <template>
-  <div class="accordion-item" id="slides">
+  <div id="slides">
     <p class="description mx-auto">
       As apresentações de slides são utilizadas frequentemente na comunidade para cumprir diversos propósitos: Louvor, avisos, palestra... E este é mais um ponto onde podemos garantir a identidade da marca.<br/>
       Abaixo você encontra alguns materiais voltados para diferentes momentos do culto.
@@ -22,13 +22,15 @@
           type="success" />
     </meuc-cards>
     <meuc-cards title="Louvor">
-      <meuc-card title="Fundo preto (para projetor)"
+      <meuc-card title="Fundo preto"
+          subtitle="Para projetor"
           image="./download/slides-louvor-fundo-preto-16x9.jpg"
           :download-links="{
           'PPTX': './download/slides-louvor-fundo-preto-16x9.pptx',
           'POTX': './download/slides-louvor-fundo-preto-16x9.potx'
           }" />
-      <meuc-card title="Fundo verde (para legendas)"
+      <meuc-card title="Fundo verde"
+          subtitle="Para legendas"
           image="./download/slides-louvor-fundo-verde-16x9.jpg"
           :download-links="{
           'PPTX': './download/slides-louvor-fundo-verde-16x9.pptx',
