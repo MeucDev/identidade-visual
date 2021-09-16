@@ -46,6 +46,19 @@
           '5 min': './download/video-transmissao-bem-vindo-oceano-5-min.mp4'
           }" />
     </meuc-cards>
+    <meuc-cards title="Fim">
+      <meuc-card title="Oceano"
+          image="./download/video-transmissao-fim-oceano.jpg"
+          :download-links="{
+          'MP4': './download/video-transmissao-fim-oceano.mp4'
+          }" />
+      <meuc-card title="Oceano (Redes Sociais)"
+          image="./download/video-transmissao-fim-oceano-redes-sociais.jpg"
+          :download-links="{
+          'MP4': './download/video-transmissao-fim-oceano-redes-sociais.mp4',
+          'PDF': './download/video-transmissao-fim-oceano-redes-sociais.pdf'
+          }" />
+    </meuc-cards>
   </div>
 </template>
 
